@@ -1,0 +1,84 @@
+*
+{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	background-color: #F1ECEE;
+	font-family:  'Balsamiq Sans', cursive;
+}
+#header-nav{
+	background-color: #84837F;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Balsamiq Sans', cursive;
+	color: #020000;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.5;
+	text-align: left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list{
+	margin: 0 -15px 0 -15px;
+}
+#nav-list a{
+	color: #151314;
+	text-align: center;
+	font-size: 1.8em;
+	font-family:  'Balsamiq Sans', cursive;
+}
+#nav-list a:hover{
+	background-color: #C4BBBB;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #252324;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+h1{
+	text-align: center;
+	font-family: 'Balsamiq Sans', cursive;
+	color: #151314;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+@media (max-width: 767px){
+	#navbar-collapse-1
+{
+	background-color: #ffffff;
+}
+}
+hr{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#para1, #para2, #para3{
+	background-color: #A09A9D;
+	border: 1px solid black;
+	margin: 10px;
+	overflow: hidden;
+	position: relative;
+	background-position: center;
+}
+p{
+	padding: 25px;
+	color: #070104;
+}
+h3{
+	font-weight: bold;
+	text-align: center;
+	color: #020000;
+	margin-bottom: 0;
+}
